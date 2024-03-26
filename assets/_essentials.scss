@@ -1,0 +1,17 @@
+@mixin body {
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+}
+
+@mixin flexy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+button:hover,
+.btn:hover {
+    transition: all .5s;
+}

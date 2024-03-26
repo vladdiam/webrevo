@@ -1,0 +1,74 @@
+button:hover,
+.btn:hover {
+  transition: all 0.5s;
+}
+
+#i-body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#18c7ca, #070a34);
+}
+
+#l-body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#11a370, #072a1e);
+  background-attachment: fixed;
+}
+
+img.ico {
+  width: 100px;
+  height: auto;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 680px;
+  background-color: rgb(31, 32, 32);
+  padding: 0 18px 0 0;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+  margin-left: -20px;
+  filter: brightness(1.1), contrast(1.15);
+}
+
+#form form {
+  padding-top: 25px;
+  margin-left: -10px;
+}
+
+#form .sub {
+  padding-top: 12px;
+  width: 35%;
+}
+
+.modal p {
+  color: rgb(145, 142, 142);
+}
+
+#l-body .container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0 60px 0;
+}/*# sourceMappingURL=style.css.map */
