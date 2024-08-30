@@ -3,7 +3,7 @@
 Service using OSPanel and phpMyAdmin DBMS. You should create your own DB for correct working
 Database: Minilink
 Table: links
-    id: varchar 64, UNIQUE
+    id: varchar 64, UNIQUE, A.I.
     user: varchar 64
     long_url: varchar 1000
     short_url: varchar 256
