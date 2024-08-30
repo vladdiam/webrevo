@@ -5,7 +5,7 @@ for correct working. You should have basic knowledge of OSPanel for usage.
 
 Database: Minilink
 Table: links
-    id: varchar 64, UNIQUE
+    id: varchar 64, UNIQUE, A.I.
     user: varchar 64
     long_url: varchar 1000
     short_url: varchar 256
